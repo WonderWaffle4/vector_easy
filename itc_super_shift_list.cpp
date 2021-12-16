@@ -1,6 +1,8 @@
 #include "easy_list.h"
 
 void itc_super_shift_list(vector<int> &mass, int n){
+    if(mass.size() == 0)
+        return;
     int buffer;
     long long counter = 0;
     vector<int> arr;
